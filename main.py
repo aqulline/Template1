@@ -100,7 +100,7 @@ class MainApp(MDApp):
 
     def build(self):
         self.theme_cls.material_style = "M3"
-        return MDScreenManager()
+        
 
 
 class MapScreen(MDScreen):
